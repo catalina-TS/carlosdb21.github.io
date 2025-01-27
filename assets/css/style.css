@@ -15,18 +15,17 @@ header {
     color: white;
     display: flex;
     align-items: center;
-    padding: 1em;
+    padding: 1rem;
 }
 
-.Settings {
-    display: flex;
-    justify-content: center;
+.ajuste {
+    text-align: center;
 }
 
 
 
 header img {
-    width: 60%;
+    width: 15vw;
 }
 
 .link-color {
@@ -39,6 +38,6 @@ header img {
     color: black;
 }
 
-.dosh2 {
+.ajuste2 {
     padding: 5px;
 }
