@@ -41,3 +41,9 @@ header img {
 .ajuste2 {
     padding: 5px;
 }
+
+main {
+    padding: 80px;
+
+    border-radius: 70%;
+}
