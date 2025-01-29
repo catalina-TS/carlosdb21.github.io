@@ -26,6 +26,8 @@ header {
     text-align: center;
 }
 
+/*centraeltexto*/
+
 
 
 header img {
@@ -46,9 +48,22 @@ header img {
     padding: 5px;
 }
 
+*
+/*ajusta espacio entre inconos git*/
+
 .coloracordeon1 .coloracordeonboton {
     background-color: #001f3f;
     border-color: #001f3f;
     color: white;
 
 }
+
+
+.ajuste3 {
+    text-align: left;
+
+
+}
+
+
+/*ajusta las listas
