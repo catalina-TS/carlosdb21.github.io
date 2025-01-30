@@ -9,9 +9,10 @@
 
     <script src="https://kit.fontawesome.com/a5bd655464.js" crossorigin="anonymous"></script>
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sora:wght@600&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -21,9 +22,9 @@
 
 <body>
     <nav>
-        <nav class="navbar navbar-expand-lg bg-secondary">
+        <nav class="navbar navbar-expand-lg bg-secondary titulos fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Carlos Briceño</a>
+                <a class="navbar-brand" href="./index.html">Carlos Briceño</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -32,21 +33,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="">Educación</a>
+                            <a class="nav-link active" aria-current="page" href="#Educación">Educación</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">experiencia</a>
+                            <a class="nav-link active" href="#Experiencia">Experiencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Portafolio</a>
+                            <a class="nav-link active" aria-current="page" href="./portafolio.html">Portafolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contacto</a>
+                            <a class="nav-link active" href="#contacto">Contacto</a>
                         </li>
                 </div>
             </div>
         </nav>
     </nav> <!--fin de nav-->
+
     <header>
 
         <div class="container-fluid">
@@ -56,9 +58,9 @@
                 </div>
                 <div class="col-7 col-5 col-4 ajuste">
 
-                    <h1> Carlos Daniel Briceño Jordan</h1>
+                    <h1 class="titulos"> Carlos Daniel Briceño Jordan</h1>
 
-                    <h2>Calidades</h2>
+                    <h2 class="titulos2">Cualidades</h2>
 
                     <p> Poseo una gran capacidad para trabajar
                         bajo presión y en equipo, pudiendo liderar cuando es necesario. Siempre estoy en busca de
@@ -73,7 +75,7 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class=" col-12 col-8">
+                    <div class=" col-12 col-8" id="contacto">
 
                         <h3>Contacto</h3>
                         <P><i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>
@@ -102,7 +104,7 @@
 
                     </div>
                 </div>
-
+            </div>
         </section>
 
     </header><!--finheader-->
@@ -113,21 +115,23 @@
     <main>
 
         <!--sección educación-->
+        <div class="ajuste4 titulos" id="Educación">
+            <H2>Educación</H2>
+        </div>
 
-        <H2>Educación</H2>
-
-
-        <div class="accordion coloracordeon1 " id="accordionExample">
+        <div class="accordion bg-info " id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button coloracordeonboton" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button bg-info" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <div class="position-absolute top-50 start-50 translate-middle"> EDUCACIÓN MEDIA</div>
+                        <div class="position-absolute top-50 start-50 translate-middle titulos"> EDUCACIÓN MEDIA</div>
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>U.E.I El Prado - Maracaibo- Venezuela (2011-20216).</strong>Mi enseñanza media
+                        <strong class="titulos2">U.E.I El Prado - Maracaibo- Venezuela (2011-20216).</strong>Mi
+                        enseñanza
+                        media
                         fue
                         un
                         periodo de descubrimiento y crecimiento. Destacaba en historia, obteniendo siempre las
@@ -145,17 +149,17 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed coloracordeonboton" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                        aria-controls="collapseTwo">
-                        <div class="position-absolute top-50 start-50 translate-middle"> INGLÉS ELEMENTAL PARA
+                    <button class="accordion-button collapsed bg-info" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="position-absolute top-50 start-50 translate-middle titulos"> INGLÉS PARA
                             LA
                             DESCRIPCIÓN DE PERFILES PERSONALES Y LABORALES</div>
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>(2020-2020 Santiago, chile)</strong> Este curso me ha permitido adquirir
+                        <strong class="titulos2">(2020-2020 Santiago, chile).</strong> Este curso me ha permitido
+                        adquirir
                         habilidades
                         valiosas para
                         comunicarme efectivamente, especialmente en contextos profesionales. A través de
@@ -170,17 +174,17 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed coloracordeonboton" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                        aria-controls="collapseThree">
-                        <div class="position-absolute top-50 start-50 translate-middle">CURSO OPERACIONES DE
+                    <button class="accordion-button collapsed bg-info" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="position-absolute top-50 start-50 translate-middle titulos">CURSO OPERACIONES DE
                             CAJA Y
-                            SERVICIO AL CLIENTE.</div>
+                            SERVICIO AL CLIENTE</div>
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>(2023-2023 Santiago, Chile)</strong> Este Curso permitió desarrollar habilidades
+                        <strong class="titulos2">(2023-2023 Santiago, Chile).</strong> Este Curso permitió desarrollar
+                        habilidades
                         cruciales en la gestión de operaciones de caja y atención al cliente. A través de
                         actividades
                         prácticas y simulaciones, aprendí a manejar transacciones de manera eficiente y brindar
@@ -197,17 +201,17 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed coloracordeonboton" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false"
-                        aria-controls="collapsefour">
-                        <div class="position-absolute top-50 start-50 translate-middle">DESARROJO FULL STACK
+                    <button class="accordion-button collapsed bg-info" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                        <div class="position-absolute top-50 start-50 translate-middle titulos">DESARROJO FULL STACK
                             JAVASCRIPT
                         </div>
                     </button>
                 </h2>
                 <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>(En desarrollo Santiago, Chile)</strong>Este programa me permitirá adquirir
+                        <strong class="titulos2">(En desarrollo Santiago, Chile).</strong>Este programa me permitirá
+                        adquirir
                         habilidades
                         técnicas avanzadas para desarrollar aplicaciones web completas, desde el front-end hasta
                         el
@@ -225,29 +229,30 @@
 
         <!-- fin sección educación-->
 
-
-        <h2>experiencia</h2>
-
+        <div id="Experiencia" class="ajuste4 titulos">
+            <h2>Experiencia</h2>
+        </div>
         <div class="container my-4">
             <div class="row">
 
                 <!--card1-->
-                <div class="col-sm-12 col-md-6 col-xl-3 my-2 ajuste">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
+
+                <div class="col-sm-12 col-md-6 col-xl-3 my-2 ajuste titulos2">
+                    <div class="card bg-info bordetarjeta" style="width: 18rem;">
+                        <div class="card-header">
                             <p class="card-text">Rodamientos Chacabuco <br> (2016-2017 Santiago,Chile).</p>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cargo: Vendedor</li>
-                            <li class="list-group-item">
+                            <li class="list-group-item bg-info">Cargo: Vendedor</li>
+                            <li class="list-group-item bg-info">
                                 <p>Funciones </p>
-                                <ul class="ajuste3">
+                                <ul class="ajuste3 ">
                                     <li>Realización de ventas.</li>
                                     <li>atención al cliente.</li>
                                     <li>Realización de inventario.</li>
                                 </ul>
                             </li>
-                            <li class="list-group-item ajuste3">
+                            <li class="list-group-item ajuste3 bg-info">
                                 <p>Objetivos cumplidos: Al iniciar en el mundo laboral permitio
                                     que tomara nuevos
                                     conocimientos y experiencia para poder ser aplicados, logrando colocar las bases
@@ -260,7 +265,7 @@
                 </div>
                 <!--fincard1-->
                 <!--card2-->
-                <div class=" col-sm-12 col-md-6 col-xl-3 my-2 ajuste">
+                <div class=" col-sm-12 col-md-6 col-xl-3 my-2 ajuste titulos2">
                     <div class="card" style="width: 18rem;">
 
                         <div class="card-body">
@@ -290,7 +295,7 @@
                 <!--fincard2-->
 
                 <!--card3-->
-                <div class="col-sm-12 col-md-6 col-xl-3 my-2 ajuste">
+                <div class="col-sm-12 col-md-6 col-xl-3 my-2 ajuste titulos2">
                     <div class="card" style="width: 18rem;">
 
                         <div class="card-body">
@@ -320,7 +325,7 @@
                 </div>
                 <!--fincard3-->
                 <!--card4-->
-                <div class="col-sm-12 col-md-6 col-xl-3 my-2  ajuste">
+                <div class="col-sm-12 col-md-6 col-xl-3 my-2  ajuste titulos2">
                     <div class="card " style="width: 18rem;">
 
                         <div class="card-body">
@@ -338,7 +343,8 @@
                                 </ul>
 
                             </li>
-                            <li class="list-group-item ajuste3">Objetivos: Mi trabajo actual me permite estudiar y ese
+                            <li class="list-group-item ajuste3">Objetivos: Mi trabajo actual me permite estudiar y
+                                ese
                                 es
                                 uno de mis objetivos mas grandes, profesionalizarme para lograr crecer dentro de la
                                 empresa.</li>
@@ -350,47 +356,16 @@
 
 
 
-
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </main>
 
-
-
-
-
-
-
-
-
     <footer>
-        &copy; CBriceñoj 2025
+
+        &copy; Carlos Briceño Jordan 2025
     </footer>
 
-    <!--Scrip de Bootstrap-->
+    <!--Script de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

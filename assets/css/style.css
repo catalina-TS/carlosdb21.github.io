@@ -5,9 +5,11 @@
 }
 
 body {
-    background-color: #d9d9d9;
-    font-family: 'Relawey', Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    background-color: #e1e1e1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-variation-settings: "with" 100;
+
 }
 
 main {
@@ -15,18 +17,33 @@ main {
 }
 
 header {
-    background-color: #cfa219;
+    background-color: #001f3f;
     color: white;
     display: flex;
     align-items: center;
+    margin-top: 50px;
     padding: 1rem;
+}
+
+.titulos {
+    font-family: 'Sora';
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/*solo titulos principales*/
+
+.titulos2 {
+    font-weight: 600;
+    font-style: normal;
 }
 
 .ajuste {
     text-align: center;
 }
 
-/*centraeltexto*/
+/*centra-el-texto*/
 
 
 
@@ -44,23 +61,45 @@ header img {
     color: black;
 }
 
+/*ajusta espacio entre inconos git*/
 .ajuste2 {
     padding: 5px;
 }
 
-*
-/*ajusta espacio entre inconos git*/
+/*tarjetas*/
+.bordetarjeta {
+    border-color: black;
 
-.coloracordeon1 .coloracordeonboton {
-    background-color: #001f3f;
-    border-color: #001f3f;
-    color: white;
+}
 
+.bordetarjeta .list-group-item {
+    border-color: black;
 }
 
 /*ajusta las listas*/
 .ajuste3 {
     text-align: left;
+
+
+}
+
+/*finajustetarjeta*/
+
+/*creación de padding titulos h2*/
+.ajuste4 {
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    background-color: grey;
+    padding: 2%;
+    text-align: center;
+    font-family: "relawey";
+    font-style: italic;
+    font-size: x-large;
+    background-color: #001f3f;
+    color: white;
 
 
 }
